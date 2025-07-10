@@ -1,4 +1,40 @@
 
 body {
   font-family: "Manrope", sans-serif;
+  background-color: rgb(37, 37, 37);
+}
+.content {
+  margin-top: 126px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 36px;
+}
+.counter {
+  font-weight: 700;
+  font-size: 32px;
+  color: #FFFFFF;
+}
+.button {
+  display: block;
+  width: 500px;
+  height: 100px;
+  background-color: #4191FF;
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+.buttonReset {
+  display: block;
+  width: 500px;
+  height: 100px;
+  background-color: #D45366;
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  color: #FFFFFF;
 }
