@@ -3,6 +3,11 @@ body {
   font-family: "Manrope", sans-serif;
   background-color: rgb(37, 37, 37);
 }
+button:hover {
+  opacity: 0.9;
+  transform: scale(1.02);
+  transition: all 0.2s ease;
+}
 .content {
   margin-top: 126px;
   display: flex;
