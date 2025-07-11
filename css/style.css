@@ -16,7 +16,7 @@ body {
   font-size: 32px;
   color: #FFFFFF;
 }
-.button {
+.buttonPlus {
   display: block;
   width: 500px;
   height: 100px;
@@ -27,11 +27,22 @@ body {
   line-height: 100%;
   color: #FFFFFF;
 }
-.buttonReset {
+.buttonMinus {
   display: block;
   width: 500px;
   height: 100px;
   background-color: #D45366;
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+.buttonReset {
+  display: block;
+  width: 500px;
+  height: 100px;
+  background-color: #52eb2c75;
   border-radius: 16px;
   font-weight: 700;
   font-size: 32px;
