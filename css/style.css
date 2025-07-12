@@ -1,7 +1,7 @@
 
 body {
   font-family: "Manrope", sans-serif;
-  background-color: rgb(37, 37, 37);
+  background: linear-gradient(135deg, #1e1e1e, #3b3b3b);
 }
 button:hover {
   opacity: 0.9;
@@ -9,7 +9,8 @@ button:hover {
   transition: all 0.2s ease;
 }
 .content {
-  margin-top: 126px;
+  padding-top: 126px;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,13 +20,13 @@ button:hover {
 .counter {
   font-weight: 700;
   font-size: 32px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .buttonPlus {
   display: block;
   width: 500px;
   height: 100px;
-  background-color: #4191FF;
+  background-color: #4CAF50;
   border-radius: 16px;
   font-weight: 700;
   font-size: 32px;
@@ -36,7 +37,7 @@ button:hover {
   display: block;
   width: 500px;
   height: 100px;
-  background-color: #D45366;
+  background-color: #F44336;
   border-radius: 16px;
   font-weight: 700;
   font-size: 32px;
@@ -47,7 +48,7 @@ button:hover {
   display: block;
   width: 500px;
   height: 100px;
-  background-color: #52eb2c75;
+  background-color: #FF9800;
   border-radius: 16px;
   font-weight: 700;
   font-size: 32px;
