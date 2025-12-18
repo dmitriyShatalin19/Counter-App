@@ -1,0 +1,23 @@
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-one {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 150px;
+}
+.pluse {
+    width: 450px;
+    height: 70px;
+    border-radius: 15px;
+    background-color: blue;
+}
+.reset {
+    width: 450px;
+    height: 70px;
+    border-radius: 15px;
+    background-color: rgb(255, 0, 0);
+}
